@@ -32,7 +32,7 @@ async function askBots() {
   fetch("https://api-inference.huggingface.co/models/google/flan-t5-base", {
     method: "POST",
     headers: {
-      "Authorization": "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",
+      "Authorization": "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",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({ inputs: question })
