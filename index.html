@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Multi-Bot AI Responses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ask Multiple AIs</h1>
+  <textarea id="userInput" placeholder="Ask a question..."></textarea>
+  <button onclick="askBots()">Ask</button>
+
+  <div class="responses">
+    <div id="openai" class="response-box"><h2>OpenAI</h2><p>Loading...</p></div>
+    <div id="huggingface" class="response-box"><h2>Hugging Face</h2><p>Loading...</p></div>
+    <div id="groq" class="response-box"><h2>Groq Cloud</h2><p>Loading...</p></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
