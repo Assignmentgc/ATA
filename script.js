@@ -10,7 +10,7 @@ async function askBots() {
   fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer YOUR_OPENAI_API_KEY",
+      "Authorization": "sk-efghijklmnop5678efghijklmnop5678efghijkl",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
@@ -32,7 +32,7 @@ async function askBots() {
   fetch("https://api-inference.huggingface.co/models/google/flan-t5-base", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer YOUR_HUGGINGFACE_API_KEY",
+      "Authorization": "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",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({ inputs: question })
@@ -51,7 +51,7 @@ async function askBots() {
   fetch("https://api.groq.com/openai/v1/chat/completions", {
     method: "POST",
     headers: {
-      "Authorization": "Bearer YOUR_GROQ_API_KEY",
+      "Authorization": "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",
       "Content-Type": "application/json"
     },
     body: JSON.stringify({
